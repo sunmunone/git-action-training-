@@ -7,6 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name : Print Greeting
-        run : echo "Hello , Namaste"
+        run : |
+          echo "Hello , Namaste"
+          echo "testing mutiple lines"
+          ls -l
       - name : Print closing message
         run : echo " Tata , good bye , subhrathri"
