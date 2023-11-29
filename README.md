@@ -1,1 +1,1 @@
-# git-action-training-
+# git-action-training
